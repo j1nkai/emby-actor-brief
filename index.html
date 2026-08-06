@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>深夜图书馆 · Emby 女优与新番更新 Dashboard v2</title>
+    <title>深夜图书馆 · Emby 女优与新番更新 Dashboard v2.1</title>
     <style>
         :root {
             --bg-color: #0d0f12;
@@ -124,12 +124,22 @@
             margin-bottom: 12px;
             color: #fff;
         }
+        .item-details {
+            margin-bottom: 12px;
+        }
+        .details-summary {
+            color: var(--blue-accent);
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            user-select: none;
+        }
         .item-list {
             display: flex;
             flex-direction: column;
             gap: 10px;
-            flex: 1;
-            margin-bottom: 15px;
+            margin-top: 8px;
         }
         .item-row {
             background: var(--box-bg);
@@ -177,6 +187,7 @@
             border-top: 1px solid var(--border-color);
             padding-top: 10px;
             text-align: right;
+            margin-top: auto;
         }
         .search-btn {
             color: var(--text-sub);
@@ -188,11 +199,11 @@
 </head>
 <body>
     <header>
-        <div class="header-title">🍑 深夜图书馆 · Emby 女优与新番更新 Dashboard <span style="font-size:12px; color:var(--orange-accent); border:1px solid var(--orange-accent); padding:2px 6px; border-radius:4px;">v2.0 MECH</span></div>
+        <div class="header-title">🍑 深夜图书馆 · Emby 女优与新番更新 Dashboard <span style="font-size:12px; color:var(--orange-accent); border:1px solid var(--orange-accent); padding:2px 6px; border-radius:4px;">v2.1 MECH</span></div>
         <div class="meta-bar">
             <span>生成时间: 2026-08-06T09:00:46+08:00</span>
-            <span>已载入演员: 120 人</span>
-            <span>防护状态: 图像人脸定位修正已开启</span>
+            <span id="actorCountMeta">已载入演员: 120 人</span>
+            <span>防护状态: 图像人脸定位修正与折叠已开启</span>
         </div>
     </header>
 
@@ -212,8 +223,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">愛弓りょう</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -246,7 +259,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%84%9B%E5%BC%93%E3%82%8A%E3%82%87%E3%81%86" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -263,8 +277,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">夢乃あいか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -297,7 +313,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%A4%A2%E4%B9%83%E3%81%82%E3%81%84%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -314,8 +331,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">庵ひめか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -348,7 +367,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%BA%B5%E3%81%B2%E3%82%81%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -365,8 +385,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">弥生みづき</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -399,7 +421,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%BC%A5%E7%94%9F%E3%81%BF%E3%81%A5%E3%81%8D" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -416,8 +439,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">奥田咲</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -450,7 +475,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%A5%A5%E7%94%B0%E5%92%B2" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -467,8 +493,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">佐山愛</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -501,7 +529,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%BD%90%E5%B1%B1%E6%84%9B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -518,8 +547,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">松本菜奈実</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -552,7 +583,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%9D%BE%E6%9C%AC%E8%8F%9C%E5%A5%88%E5%AE%9F" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -569,8 +601,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">鷲尾めい</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -603,7 +637,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%B7%B2%E5%B0%BE%E3%82%81%E3%81%84" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -620,8 +655,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">波多野結衣</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -654,7 +691,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%B3%A2%E5%A4%9A%E9%87%8E%E7%B5%90%E8%A1%A3" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -671,8 +709,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">一乃あおい</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -705,7 +745,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%B8%80%E4%B9%83%E3%81%82%E3%81%8A%E3%81%84" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -722,8 +763,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">七海ティナ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -756,7 +799,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%B8%83%E6%B5%B7%E3%83%86%E3%82%A3%E3%83%8A" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -773,8 +817,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">小宵こなん</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -807,7 +853,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%B0%8F%E5%AE%B5%E3%81%93%E3%81%AA%E3%82%93" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -824,8 +871,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">水卜さくら</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -858,7 +907,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%B0%B4%E5%8D%9C%E3%81%95%E3%81%8F%E3%82%89" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -875,8 +925,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">美乃すずめ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -909,7 +961,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%BE%8E%E4%B9%83%E3%81%99%E3%81%9A%E3%82%81" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -926,8 +979,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">美園和花</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -960,7 +1015,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%BE%8E%E5%9C%92%E5%92%8C%E8%8A%B1" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -977,8 +1033,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">姫咲はな</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1011,7 +1069,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%A7%AB%E5%92%B2%E3%81%AF%E3%81%AA" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1028,8 +1087,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">有岡みう</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1062,7 +1123,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%9C%89%E5%B2%A1%E3%81%BF%E3%81%86" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1079,8 +1141,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">JULIA</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1113,7 +1177,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/JULIA" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1130,8 +1195,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">神木麗</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1164,7 +1231,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%A5%9E%E6%9C%A8%E9%BA%97" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1181,8 +1249,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">凪ひかる</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1215,7 +1285,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%87%AA%E3%81%B2%E3%81%8B%E3%82%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1232,8 +1303,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">清宮仁愛</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1266,7 +1339,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%B8%85%E5%AE%AE%E4%BB%81%E6%84%9B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1283,8 +1357,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">辻井ほのか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1317,7 +1393,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%BE%BB%E4%BA%95%E3%81%BB%E3%81%AE%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1334,8 +1411,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">桃園怜奈</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1368,7 +1447,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%A1%83%E5%9C%92%E6%80%9C%E5%A5%88" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1385,8 +1465,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">七瀬アリス</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1419,7 +1501,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%B8%83%E7%80%AC%E3%82%A2%E3%83%AA%E3%82%B9" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1436,8 +1519,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">浜崎真緒</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1470,7 +1555,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%B5%9C%E5%B4%8E%E7%9C%9F%E7%B7%92" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1487,8 +1573,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">本田岬</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1521,7 +1609,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%9C%AC%E7%94%B0%E5%B2%AC" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1538,8 +1627,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">新山かえで</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (5) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1572,7 +1663,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%96%B0%E5%B1%B1%E3%81%8B%E3%81%88%E3%81%A7" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1589,8 +1681,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">武藤あやか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1623,7 +1717,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%AD%A6%E8%97%A4%E3%81%82%E3%82%84%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1640,8 +1735,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">篠田ゆう</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1674,7 +1771,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%AF%A0%E7%94%B0%E3%82%86%E3%81%86" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1691,8 +1789,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">小日向みゆう（清原みゆう）</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1725,7 +1825,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%B0%8F%E6%97%A5%E5%90%91%E3%81%BF%E3%82%86%E3%81%86%EF%BC%88%E6%B8%85%E5%8E%9F%E3%81%BF%E3%82%86%E3%81%86%EF%BC%89" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1742,8 +1843,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">篠原いよ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1776,7 +1879,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%AF%A0%E5%8E%9F%E3%81%84%E3%82%88" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1793,8 +1897,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">葵百合香</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1827,7 +1933,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%91%B5%E7%99%BE%E5%90%88%E9%A6%99" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1844,8 +1951,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">百田光希</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1878,7 +1987,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%99%BE%E7%94%B0%E5%85%89%E5%B8%8C" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1895,8 +2005,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">雨宮ひびき</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1929,7 +2041,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%9B%A8%E5%AE%AE%E3%81%B2%E3%81%B3%E3%81%8D" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1946,8 +2059,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">椿りか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -1980,7 +2095,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%A4%BF%E3%82%8A%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -1997,8 +2113,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">天馬ゆい</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2031,7 +2149,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%A4%A9%E9%A6%AC%E3%82%86%E3%81%84" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2048,8 +2167,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">田中ねね</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2082,7 +2203,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%94%B0%E4%B8%AD%E3%81%AD%E3%81%AD" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2099,8 +2221,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">白峰ミウ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2133,7 +2257,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%99%BD%E5%B3%B0%E3%83%9F%E3%82%A6" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2150,8 +2275,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">瀬名ひかり</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2184,7 +2311,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%80%AC%E5%90%8D%E3%81%B2%E3%81%8B%E3%82%8A" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2201,8 +2329,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">澁谷果歩</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2235,7 +2365,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%BE%81%E8%B0%B7%E6%9E%9C%E6%AD%A9" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2252,8 +2383,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">吉川あいみ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2286,7 +2419,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%90%89%E5%B7%9D%E3%81%82%E3%81%84%E3%81%BF" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2303,8 +2437,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">君島みお</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (4) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2337,7 +2473,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%90%9B%E5%B3%B6%E3%81%BF%E3%81%8A" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2354,8 +2491,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">推川ゆうり</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2380,7 +2519,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%8E%A8%E5%B7%9D%E3%82%86%E3%81%86%E3%82%8A" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2397,8 +2537,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">つばさ舞</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2423,7 +2565,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E3%81%A4%E3%81%B0%E3%81%95%E8%88%9E" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2440,8 +2583,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">角奈保</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2466,7 +2611,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%A7%92%E5%A5%88%E4%BF%9D" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2483,8 +2629,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">安達夕莉</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2509,7 +2657,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%AE%89%E9%81%94%E5%A4%95%E8%8E%89" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2526,8 +2675,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">うんぱい</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2552,7 +2703,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E3%81%86%E3%82%93%E3%81%B1%E3%81%84" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2569,8 +2721,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">設楽ゆうひ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2595,7 +2749,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%A8%AD%E6%A5%BD%E3%82%86%E3%81%86%E3%81%B2" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2612,8 +2767,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">桐谷まつり</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2638,7 +2795,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%A1%90%E8%B0%B7%E3%81%BE%E3%81%A4%E3%82%8A" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2655,8 +2813,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">逢見リカ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2681,7 +2841,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%80%A2%E8%A6%8B%E3%83%AA%E3%82%AB" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2698,8 +2859,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">小梅えな</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2724,7 +2887,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%B0%8F%E6%A2%85%E3%81%88%E3%81%AA" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2741,8 +2905,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">宮本留衣</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2767,7 +2933,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%AE%AE%E6%9C%AC%E7%95%99%E8%A1%A3" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2784,8 +2951,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">桜空もも</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2810,7 +2979,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%A1%9C%E7%A9%BA%E3%82%82%E3%82%82" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2827,8 +2997,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">山手梨愛</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2853,7 +3025,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%B1%B1%E6%89%8B%E6%A2%A8%E6%84%9B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2870,8 +3043,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">伊藤舞雪</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2896,7 +3071,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%BC%8A%E8%97%A4%E8%88%9E%E9%9B%AA" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2913,8 +3089,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">橘メアリー</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2939,7 +3117,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%A9%98%E3%83%A1%E3%82%A2%E3%83%AA%E3%83%BC" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2956,8 +3135,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">めぐり（藤浦めぐ）</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -2982,7 +3163,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E3%82%81%E3%81%90%E3%82%8A%EF%BC%88%E8%97%A4%E6%B5%A6%E3%82%81%E3%81%90%EF%BC%89" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -2999,8 +3181,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">百永さりな</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3025,7 +3209,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%99%BE%E6%B0%B8%E3%81%95%E3%82%8A%E3%81%AA" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3042,8 +3227,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">麻美ゆま</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3068,7 +3255,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%BA%BB%E7%BE%8E%E3%82%86%E3%81%BE" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3085,8 +3273,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">川村晴</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3111,7 +3301,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%B7%9D%E6%9D%91%E6%99%B4" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3128,8 +3319,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">水野朝陽</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3154,7 +3347,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%B0%B4%E9%87%8E%E6%9C%9D%E9%99%BD" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3171,8 +3365,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">三上悠亜</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (3) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3197,7 +3393,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%B8%89%E4%B8%8A%E6%82%A0%E4%BA%9C" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3214,8 +3411,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">藤森里穂</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3232,7 +3431,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%97%A4%E6%A3%AE%E9%87%8C%E7%A9%82" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3249,8 +3449,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">葵いぶき</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3267,7 +3469,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%91%B5%E3%81%84%E3%81%B6%E3%81%8D" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3284,8 +3487,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">青空ひかり</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3302,7 +3507,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%9D%92%E7%A9%BA%E3%81%B2%E3%81%8B%E3%82%8A" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3319,8 +3525,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">三田真鈴</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3337,7 +3545,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%B8%89%E7%94%B0%E7%9C%9F%E9%88%B4" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3354,8 +3563,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">莉々はるか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3372,7 +3583,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%8E%89%E3%80%85%E3%81%AF%E3%82%8B%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3389,8 +3601,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">響蓮</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3407,7 +3621,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%9F%BF%E8%93%AE" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3424,8 +3639,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">本庄鈴</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3442,7 +3659,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%9C%AC%E5%BA%84%E9%88%B4" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3459,8 +3677,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">日下部加奈</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3477,7 +3697,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%97%A5%E4%B8%8B%E9%83%A8%E5%8A%A0%E5%A5%88" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3494,8 +3715,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">飛鳥りいな</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3512,7 +3735,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%A3%9B%E9%B3%A5%E3%82%8A%E3%81%84%E3%81%AA" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3529,8 +3753,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">菊乃らん</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3547,7 +3773,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%8F%8A%E4%B9%83%E3%82%89%E3%82%93" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3564,8 +3791,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">神坂朋子</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3582,7 +3811,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%A5%9E%E5%9D%82%E6%9C%8B%E5%AD%90" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3599,8 +3829,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">水原みその</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3617,7 +3849,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%B0%B4%E5%8E%9F%E3%81%BF%E3%81%9D%E3%81%AE" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3634,8 +3867,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">有村のぞみ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3652,7 +3887,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%9C%89%E6%9D%91%E3%81%AE%E3%81%9E%E3%81%BF" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3669,8 +3905,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">吉根ゆりあ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3687,7 +3925,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%90%89%E6%A0%B9%E3%82%86%E3%82%8A%E3%81%82" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3704,8 +3943,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">葵つかさ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3722,7 +3963,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%91%B5%E3%81%A4%E3%81%8B%E3%81%95" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3739,8 +3981,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">天使もえ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3757,7 +4001,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%A4%A9%E4%BD%BF%E3%82%82%E3%81%88" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3774,8 +4019,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">菅野さゆき</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3792,7 +4039,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%8F%85%E9%87%8E%E3%81%95%E3%82%86%E3%81%8D" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3809,8 +4057,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">二羽紗愛</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3827,7 +4077,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%BA%8C%E7%BE%BD%E7%B4%97%E6%84%9B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3844,8 +4095,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">月野かすみ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3862,7 +4115,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%9C%88%E9%87%8E%E3%81%8B%E3%81%99%E3%81%BF" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3879,8 +4133,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">皆月ひかる</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3897,7 +4153,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%9A%86%E6%9C%88%E3%81%B2%E3%81%8B%E3%82%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3914,8 +4171,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">工藤ララ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3932,7 +4191,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%B7%A5%E8%97%A4%E3%83%A9%E3%83%A9" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3949,8 +4209,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">七海那美</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -3967,7 +4229,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%B8%83%E6%B5%B7%E9%82%A3%E7%BE%8E" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -3984,8 +4247,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">音海里奈</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4002,7 +4267,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%9F%B3%E6%B5%B7%E9%87%8C%E5%A5%88" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4019,8 +4285,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">小野夕子</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4037,7 +4305,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%B0%8F%E9%87%8E%E5%A4%95%E5%AD%90" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4054,8 +4323,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">水川スミレ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4072,7 +4343,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%B0%B4%E5%B7%9D%E3%82%B9%E3%83%9F%E3%83%AC" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4089,8 +4361,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">楓カレン</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4107,7 +4381,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%A5%93%E3%82%AB%E3%83%AC%E3%83%B3" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4124,8 +4399,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">若宮穂乃</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4142,7 +4419,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%8B%A5%E5%AE%AE%E7%A9%82%E4%B9%83" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4159,8 +4437,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">笹倉杏</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4177,7 +4457,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%AC%B9%E5%80%89%E6%9D%8F" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4194,8 +4475,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">阿部乃みく</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4212,7 +4495,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%98%BF%E9%83%A8%E4%B9%83%E3%81%BF%E3%81%8F" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4229,8 +4513,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">松井優子</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4247,7 +4533,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%9D%BE%E4%BA%95%E5%84%AA%E5%AD%90" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4264,8 +4551,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">桃乃木かな</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4282,7 +4571,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%A1%83%E4%B9%83%E6%9C%A8%E3%81%8B%E3%81%AA" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4299,8 +4589,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">安齋らら</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4317,7 +4609,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%AE%89%E9%BD%8B%E3%82%89%E3%82%89" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4334,8 +4627,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">三原ほのか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4352,7 +4647,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E4%B8%89%E5%8E%9F%E3%81%BB%E3%81%AE%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4369,8 +4665,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">綾瀬こころ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4387,7 +4685,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%B6%BE%E7%80%AC%E3%81%93%E3%81%93%E3%82%8D" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4404,8 +4703,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">弓乃りむ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4422,7 +4723,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%BC%93%E4%B9%83%E3%82%8A%E3%82%80" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4439,8 +4741,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">凪沙ゆきの</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4457,7 +4761,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%87%AA%E6%B2%99%E3%82%86%E3%81%8D%E3%81%AE" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4474,8 +4779,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">舞咲みくに</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4492,7 +4799,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%88%9E%E5%92%B2%E3%81%BF%E3%81%8F%E3%81%AB" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4509,8 +4817,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">綾瀬みなみ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4527,7 +4837,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%B6%BE%E7%80%AC%E3%81%BF%E3%81%AA%E3%81%BF" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4544,8 +4855,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">春菜はな</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4562,7 +4875,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%98%A5%E8%8F%9C%E3%81%AF%E3%81%AA" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4579,8 +4893,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">塚田詩織</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4597,7 +4913,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%A1%9A%E7%94%B0%E8%A9%A9%E7%B9%94" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4614,8 +4931,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">黒川すみれ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4632,7 +4951,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%BB%92%E5%B7%9D%E3%81%99%E3%81%BF%E3%82%8C" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4649,8 +4969,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">真木今日子</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4667,7 +4989,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%9C%9F%E6%9C%A8%E4%BB%8A%E6%97%A5%E5%AD%90" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4684,8 +5007,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">木下凛々子</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4702,7 +5027,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%9C%A8%E4%B8%8B%E5%87%9B%E3%80%85%E5%AD%90" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4719,8 +5045,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">沖宮那美</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4737,7 +5065,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%B2%96%E5%AE%AE%E9%82%A3%E7%BE%8E" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4754,8 +5083,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">葉山さゆり</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4772,7 +5103,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E8%91%89%E5%B1%B1%E3%81%95%E3%82%86%E3%82%8A" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4789,8 +5121,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">長澤あずさ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4807,7 +5141,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E9%95%B7%E6%BE%A4%E3%81%82%E3%81%9A%E3%81%95" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4824,8 +5159,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">稲場るか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4842,7 +5179,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%A8%B2%E5%A0%B4%E3%82%8B%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4859,8 +5197,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">本多翼</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4877,7 +5217,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E6%9C%AC%E5%A4%9A%E7%BF%BC" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4894,8 +5235,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">りお</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4912,7 +5255,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E3%82%8A%E3%81%8A" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4929,8 +5273,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">ゆりか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4947,7 +5293,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E3%82%86%E3%82%8A%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4964,8 +5311,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">みく</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -4982,7 +5331,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E3%81%BF%E3%81%8F" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -4999,8 +5349,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">まゆ</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -5017,7 +5369,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E3%81%BE%E3%82%86" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -5034,8 +5387,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">すずか</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -5052,7 +5407,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E3%81%99%E3%81%9A%E3%81%8B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -5069,8 +5425,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">真白愛梨</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (2) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -5087,7 +5445,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%9C%9F%E7%99%BD%E6%84%9B%E6%A2%A8" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -5104,8 +5463,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">北野未奈</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (1) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -5114,7 +5475,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%8C%97%E9%87%8E%E6%9C%AA%E5%A5%88" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -5131,8 +5493,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">石原希望</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (1) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -5141,7 +5505,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E7%9F%B3%E5%8E%9F%E5%B8%8C%E6%9C%9B" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -5158,8 +5523,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">彩月七緒</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (1) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -5168,7 +5535,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%BD%A9%E6%9C%88%E4%B8%83%E7%B7%92" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -5185,8 +5553,10 @@
         </div>
         <div class="card-body">
             <h3 class="actor-name">小湊よつ葉</h3>
-            <div class="item-list">
-                
+            <details class="item-details">
+                <summary class="details-summary">[ 展开关联作品 (1) ]</summary>
+                <div class="item-list">
+                    
         <div class="item-row">
             <div class="item-title-box">
                 
@@ -5195,7 +5565,8 @@
             <a href="https://missav.ws/cn/search/" target="_blank" class="play-btn">[ 观看 ↗ ]</a>
         </div>
         
-            </div>
+                </div>
+            </details>
             <div class="card-footer">
                 <a href="https://www.javbus.com/search/%E5%B0%8F%E6%B9%8A%E3%82%88%E3%81%A4%E8%91%89" target="_blank" class="search-btn">[ JavBus 检索 ↗ ]</a>
             </div>
@@ -5208,15 +5579,18 @@
         function filterActors() {
             const q = document.getElementById('searchInput').value.toLowerCase();
             const cards = document.querySelectorAll('.actor-card');
+            let visible = 0;
             cards.forEach(card => {
                 const name = card.getAttribute('data-name').toLowerCase();
                 const text = card.innerText.toLowerCase();
                 if (name.includes(q) || text.includes(q)) {
                     card.style.display = 'flex';
+                    visible++;
                 } else {
                     card.style.display = 'none';
                 }
             });
+            document.getElementById('actorCountMeta').innerText = '当前显示演员: ' + visible + ' 人';
         }
     </script>
 </body>
